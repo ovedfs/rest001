@@ -2,7 +2,7 @@
 
 session_start();
 
-define("BASE_URL", "http://localhost/rest001/"); // Cambiar ej: http://localhost/proyecto/
+define("BASE_URL", "http://localhost/tu-proyecto/"); // Cambiar ej: http://localhost/proyecto/
 
 define("ROOT_PATH", dirname(dirname(__DIR__)) . "/");
 
