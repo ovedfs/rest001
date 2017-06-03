@@ -1,0 +1,12 @@
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'App\Controllers\CategoryController' does not have a method 'index' in C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php on line 37
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP Stack trace:
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP   1. {main}() C:\Users\Ovedfs\xampp\htdocs\rest001\index.php:0
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP   2. App\Core\Router->__construct() C:\Users\Ovedfs\xampp\htdocs\rest001\index.php:8
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP   3. App\Core\Router->responseWithAPI() C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php:19
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP   4. App\Core\Router->dispatch() C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php:101
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP   5. call_user_func_array:{C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php:37}() C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php:37
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'App\Controllers\CategoryController' does not have a method 'index' in C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php on line 37
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP Stack trace:
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP   1. {main}() C:\Users\Ovedfs\xampp\htdocs\rest001\index.php:0
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP   2. App\Core\Router->dispatch() C:\Users\Ovedfs\xampp\htdocs\rest001\index.php:9
+[03-Jun-2017 18:25:24 Europe/Berlin] PHP   3. call_user_func_array:{C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php:37}() C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php:37

@@ -1,0 +1,19 @@
+
+----------------------------------------
+		MiniFramework 1.0
+		por @ovedfs
+----------------------------------------
+
+Instrucciones de uso:
+
+- Descargar, descomprimir, renombrar y mover proyecto a htdocs
+
+- Ejecutar desde consola en raíz del proyecto: composer install
+
+- Probar en navegador http://localhost/proyecto
+
+- Configurar BASE_URL en app/config/settings.php
+
+- Crear base de datos y configurar datos de conexión en app/config/configDB.php
+
+- Configurar errores deveopment/production en app/config/settings.php (por default esta en development)
