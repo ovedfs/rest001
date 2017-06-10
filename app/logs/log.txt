@@ -1,0 +1,11 @@
+[10-Jun-2017 17:25:22 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'tu-database' in C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Model.php:21
+Stack trace:
+#0 C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Model.php(21): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Controller.php(11): App\Core\Model->__construct()
+#2 C:\Users\Ovedfs\xampp\htdocs\rest001\app\controllers\CategoryController.php(13): App\Core\Controller->model('category')
+#3 C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php(86): App\Controllers\CategoryController->__construct()
+#4 C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Router.php(19): App\Core\Router->responseWithAPI()
+#5 C:\Users\Ovedfs\xampp\htdocs\rest001\index.php(8): App\Core\Router->__construct()
+#6 {main}
+  thrown in C:\Users\Ovedfs\xampp\htdocs\rest001\app\core\Model.php on line 21
+[10-Jun-2017 17:55:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\Users\Ovedfs\xampp\htdocs\rest001\app\controllers\CategoryController.php on line 51

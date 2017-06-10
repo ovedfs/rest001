@@ -18,4 +18,18 @@ class Category extends Model
 
 		return false;
 	}
+
+	public function update($data)
+	{
+		$query = $this->db->prepare("UPDATE $this->table SET name = :name, color = :color WHERE id = :id");
+
+		return $query->execute($data);
+	}
+
+	public function delete($id)
+	{
+		$query = $this->db->prepare("DELETE FROM $this->table WHERE id = :id");
+
+		return $query->execute(["id" => $id]);
+	}
 }
